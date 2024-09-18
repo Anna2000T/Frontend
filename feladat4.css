@@ -1,0 +1,21 @@
+
+ul{
+    display: flex;
+    width: 100%;
+    background-color: yellow;
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+
+li{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+
+}
+
+

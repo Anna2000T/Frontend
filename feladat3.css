@@ -1,0 +1,26 @@
+
+.szinek{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.zold{
+    height: 300px;
+    background-color: green;
+    flex: 2;
+
+}
+.sarga{
+    height: 300px;
+    background-color: yellow;
+    flex: 3;
+
+}
+.lila{
+    height: 300px;
+    background-color: purple;
+    flex: 2;
+
+}
+

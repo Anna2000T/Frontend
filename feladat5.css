@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(185, 156, 118);
+    
+}
+.szinek{
+    display: flex;
+    flex-direction: column;
+}
+
+.szin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45vw;
+
+}
+
+
+
+.kek{
+    background-color: blue;
+    height: 50px;
+    width: 45vw;
+}
+.sarga{
+    background-color: orange;
+    height: 39vw;
+    width: 50px;
+
+}
+.piros{
+    background-color: red;
+    height: 39vw;
+    width: 32vw;
+
+}
+.lila{
+    background-color: purple;
+    height: 39vw;
+    width: 50px;
+
+}
+
+.kekvilagos{
+    background-color: aqua;
+    height: 50px;
+    width: 45vw;
+}
+
+.fekete{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-left: 92%;
+
+}
