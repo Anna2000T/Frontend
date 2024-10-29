@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="KurzusProject_js.js" defer></script>
+    <style>
+        div{
+            margin: 15px;
+        }
+        
+    </style>
+    <title>Kurzusok</title>
+    
+</head>
+<body>
+
+  
+        
+        <h1>Kurzusok</h1>
+        <div>
+            <label for="">Kurzusok meg jelenítése:</label>
+        <button onclick="ShowKurzus()">Show</button>
+    </div>
+
+    <div>
+        <label for="">Adja meg az új kurzus nevét: </label>
+        <input type="text" id="ujkurzus">
+        <br><button onclick="addKurzus()">Kurzus hozzáadása</button>
+    </div>
+
+    <div>
+
+        <!-- <label for="">Adjon egy új diákot a kurzushoz id alapján: </label>
+        <input type="text" id="idalap"> -->
+        <!-- <br><button onclick="idalap()">Diák hozzáadása</button> -->
+
+
+        <br><label for="">Adjon egy új diákot a kurzushoz: </label>
+        <input type="text" id="diakneve">
+        <br><button onclick="newDiak()">Diák hozzáadása</button>
+    </div>
+
+    <div>
+        <label for="">Kurzus Törlése név alapján</label>
+        <input type="text" id="RemoveNev">
+        <br><button onclick="RemoveKurzus()">Kurzus törlése</button>
+    </div>
+
+
+    <div id="users"></div>
+
+
+    
+</body>
+</html>
