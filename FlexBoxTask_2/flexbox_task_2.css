@@ -1,0 +1,50 @@
+
+#UpperPart{
+    width: 100%;
+    background-color: purple;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+li{
+    width: 90px;
+    height: 30px;
+    background-color: aqua;
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+#UnderPart{
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: nowrap;
+    
+
+
+}
+
+#sarga{
+    background-color: yellow;
+    width: 70%;
+    height: 800px;
+    display: block;
+ 
+    
+}
+
+#zold{
+    background-color: green;
+
+    display: block;
+    width: 30%;
+    height: 800px;
+    
+    
+
+}
