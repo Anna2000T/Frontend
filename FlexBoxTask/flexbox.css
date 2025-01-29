@@ -1,0 +1,22 @@
+
+
+#MainPart{
+    height: 200px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+
+li{
+    width: 100px;
+    height: 90px;
+    background-color: purple;
+    list-style: none;
+   
+}
+
