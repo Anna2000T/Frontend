@@ -1,0 +1,104 @@
+body{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+
+}
+
+
+button{
+    width: 180px;
+    height: 60px;
+    background-color: purple;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: 10px;
+
+}
+
+.FullContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+
+}
+
+
+.cim{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 60px;
+    vertical-align:middle;
+}
+
+
+
+
+
+.healthBar{
+    width: 520px;
+    height: 30px;
+    background-color: rgb(117, 165, 131);
+    display: inline-block;
+    margin: auto;
+    box-shadow: -1px 1px  grey;
+
+}
+
+.firstContent{
+    display: flex;
+    box-shadow: -1px 1px  grey;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+    
+
+
+}
+
+.secondContent{
+    display: flex;
+    box-shadow: -1px 1px  grey;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.thirdContent{
+    display: flex;
+    box-shadow: -1px 1px  grey;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+div{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.number{
+    color: grey;
+}
+
+.actions{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
