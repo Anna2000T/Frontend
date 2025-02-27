@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Document</title>
+
+</head>
+<body>
+
+    <ul class="navbar">
+        <li>Toy Shop</li>
+
+        <li>Home</li>
+        <li>Shop</li>
+        <li>About</li>
+        <li>Contact</li>
+
+    </ul>
+
+
+    <div class="container">
+    <div  class="card">
+
+       <img class="lekerekitett"  src="cars.png" >
+        <div class="card-body">
+
+            <h2>Toy Car</h2>
+            <p>A fun toy car for all ages. Perfect for young adventures</p>
+
+            <div class="egyben">
+                <h3>$15.99</h3>
+                <h5 class="athuzott">$29.99</h5>
+
+            </div>
+           
+            <button>Buy now</button>
+
+        </div>
+    </div>
+
+
+
+    <div id="card2" class="card">
+
+     
+        <div class="card-body">
+            <img src="blocks.jpg" >
+
+            <h2>Building Blocks</h2>
+            <p>Enhance creativity with tihs set of colorful building blocks</p>
+
+            <h5>$24.99</h5>
+            <button class="buttonFeher">Buy now</button>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div id="card3" class="card">
+
+        <div class="card-body">
+
+            <h2>Dollhouse</h2>
+            <p>A beautiful dollhouse for hours of imaginative play!</p>
+            <h5>$39.99</h5>
+            <button class="buttonFekete">Buy now</button>
+
+            <img src="Margot.jpg" >
+
+        </div>
+   
+
+    </div>
+
+
+
+
+
+
+    </div>
+
+
+
+    
+</body>
+</html>
+
+
+<style>
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    height: 25dwh;
+ 
+}
+
+
+
+.card{
+    width: 50%;
+    height: 100%;
+    
+    margin-right: 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    background: black;
+    color: grey;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    
+}
+
+
+
+li:first-child{
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+    
+}
+
+li:hover{
+    color: white;
+    
+
+}
+
+li{
+    float: inline-end;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+li:first-child{
+    flex: 1;
+ 
+}
+
+
+button{
+    background-color: rgb(67, 96, 226);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 3px 0 10px 0;
+    width: 90px
+
+}
+
+.buttonFekete{
+    background-color: black;
+    color: white;
+}
+
+
+.buttonFeher{
+    background-color: white;
+    color: rgb(51, 51, 51);
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 204, 255);
+
+}
+#card2{
+    background-color: grey;
+}
+
+#card3{
+    background-color: yellow;
+}
+
+.lekerekitett{
+    border-radius: 10px 10px 0 0;
+}
+
+.card:nth-child(2){ 
+    color: white;
+
+}
+h3{
+    color: red;
+    display: inline-block;
+}
+
+.athuzott{
+    text-decoration:line-through;
+    display: inline-block;
+
+}
+
+
+</style>
